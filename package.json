@@ -1,0 +1,157 @@
+{
+  "_args": [
+    [
+      "sails-migrations@2.1.0",
+      "/home/api/sgas-msaws-api"
+    ]
+  ],
+  "_from": "sails-migrations@2.1.0",
+  "_id": "sails-migrations@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-XnJn1ePStUUWiCmTpq91sCZKRfFUVFztx1M1QYnF15khx7EiurXirLcsXO/2xQemOikXGC9/M+NOQZtZrLGdCg==",
+  "_location": "/sails-migrations",
+  "_phantomChildren": {
+    "arr-flatten": "1.1.0",
+    "babel-runtime": "6.26.0",
+    "define-property": "2.0.2",
+    "detect-file": "0.1.0",
+    "escape-string-regexp": "1.0.5",
+    "extend-shallow": "3.0.2",
+    "fined": "1.1.0",
+    "flagged-respawn": "0.3.2",
+    "fragment-cache": "0.2.1",
+    "generic-pool": "2.5.4",
+    "homedir-polyfill": "1.0.1",
+    "inherits": "2.0.3",
+    "ini": "1.3.5",
+    "is-buffer": "1.1.6",
+    "is-extendable": "0.1.1",
+    "is-glob": "2.0.1",
+    "is-plain-object": "2.0.4",
+    "is-windows": "1.0.2",
+    "isexe": "2.0.0",
+    "micromatch": "2.3.11",
+    "mkdirp": "0.5.1",
+    "nanomatch": "1.2.13",
+    "object.map": "1.0.1",
+    "object.pick": "1.3.0",
+    "pg-connection-string": "0.1.3",
+    "posix-character-classes": "0.1.1",
+    "readable-stream": "1.1.14",
+    "rechoir": "0.6.2",
+    "regex-not": "1.0.2",
+    "repeat-element": "1.1.3",
+    "repeat-string": "1.6.1",
+    "require-all": "0.0.8",
+    "resolve": "1.1.7",
+    "resolve-dir": "0.1.1",
+    "safe-buffer": "5.1.2",
+    "snapdragon": "0.8.2",
+    "snapdragon-node": "2.1.1",
+    "split-string": "3.1.0",
+    "tildify": "1.0.0",
+    "to-regex": "3.0.2",
+    "to-regex-range": "2.1.1",
+    "uuid": "3.3.2",
+    "v8flags": "2.1.1"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "sails-migrations@2.1.0",
+    "name": "sails-migrations",
+    "escapedName": "sails-migrations",
+    "rawSpec": "2.1.0",
+    "saveSpec": null,
+    "fetchSpec": "2.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/sails-migrations/-/sails-migrations-2.1.0.tgz",
+  "_spec": "2.1.0",
+  "_where": "/home/api/sgas-msaws-api",
+  "author": {
+    "name": "BlueHotDog"
+  },
+  "bin": {
+    "sails-migrations": "bin/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/BlueHotDog/sails-migrations/issues"
+  },
+  "contributors": [
+    {
+      "name": "BlueHotDog",
+      "email": "dannifriedland@gmail.com"
+    },
+    {
+      "name": "Itay Adler",
+      "email": "itay.adler@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "bluebird": "1.1.1",
+    "chalk": "0.5.1",
+    "cli-table": "0.3.1",
+    "commander": "2.6.0",
+    "interpret": "0.3.7",
+    "knex": "^0.13.0",
+    "liftoff": "^2.2.1",
+    "lodash": "2.4",
+    "mysql": "2.5.4",
+    "optimist": "0.6.1",
+    "pg": "4.5.5",
+    "tildify": "1.0.0"
+  },
+  "description": "The missing, migrations, arm of the octopus",
+  "devDependencies": {
+    "chai": "~1.8",
+    "coffee-script": "^1.8.0",
+    "mocha": "~1.16",
+    "shelljs": "^0.3.0",
+    "should": "~2.1",
+    "sinon": "~1.7"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "bin",
+    "tasks",
+    "LICENSE",
+    "README.md"
+  ],
+  "homepage": "https://github.com/BlueHotDog/sails-migrations",
+  "keywords": [
+    "sails",
+    "sailsjs",
+    "sails.js",
+    "migrations",
+    "waterline"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://sails.mit-license.org/"
+    }
+  ],
+  "main": "index.js",
+  "name": "sails-migrations",
+  "optionalDependencies": {
+    "mysql": "2.5.4",
+    "pg": "4.5.5"
+  },
+  "peerDependencies": {
+    "sails": ">= 0.9 < 1"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BlueHotDog/sails-migrations.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "./bin/run_tests.js"
+  },
+  "version": "2.1.0"
+}
